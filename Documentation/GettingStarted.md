@@ -15,7 +15,7 @@ Three rules apply to every surface:
 Analytic surfaces live in a local `Frame3`. A surface built from a tilted frame is tilted:
 
 ```ts
-import { CylinderSurface, Frame3, Vector3 } from 'meercad-surfaces';
+import { CylinderSurface, Frame3, Vector3 } from 'mc-surfaces';
 
 const frame = Frame3.fromNormal(new Vector3(1, 2, 3), new Vector3(0, 1, 1));
 const cylinder = new CylinderSurface(frame, 2, { v: [0, 10] });
@@ -46,7 +46,7 @@ A curvature is positive where the surface bends towards its normal. A sphere's n
 
 ```ts
 import { BezierCurve, CircularArc, Line } from 'meercad-curves';
-import { LoftSurface, PipeSurface, RevolutionSurface, RuledSurface, SweepSurface, Vector3 } from 'meercad-surfaces';
+import { LoftSurface, PipeSurface, RevolutionSurface, RuledSurface, SweepSurface, Vector3 } from 'mc-surfaces';
 
 const profile = new BezierCurve([new Vector3(2, 0, 0), new Vector3(3, 0, 1), new Vector3(2, 0, 2)]);
 const vase = new RevolutionSurface(profile, Vector3.ZERO, Vector3.Z);
@@ -110,7 +110,7 @@ const nurbs = vase.toNurbs(1e-4);
 The quickest way is `ParametricSurface`:
 
 ```ts
-import { ParametricSurface, Vector3 } from 'meercad-surfaces';
+import { ParametricSurface, Vector3 } from 'mc-surfaces';
 
 const wave = new ParametricSurface((u, v) => new Vector3(u, v, Math.sin(u) * Math.cos(v)), 0, 6, 0, 6);
 ```
@@ -122,7 +122,7 @@ For a class of your own, extend `SurfaceBase` and implement `domainU`, `domainV`
 ## Saving
 
 ```ts
-import { surfaceFromJSON } from 'meercad-surfaces';
+import { surfaceFromJSON } from 'mc-surfaces';
 
 const text = JSON.stringify(vase.toJSON());
 const copy = surfaceFromJSON(JSON.parse(text));

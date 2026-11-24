@@ -1,4 +1,4 @@
-# MeerCADSurfaces
+# mc-surfaces
 
 CAD surfaces in TypeScript. Planes, quadrics, NURBS, and swept, lofted and blended surfaces all implement one `ISurface` interface, so the same code can evaluate, measure, tessellate, intersect, trim, transform and save any of them.
 
@@ -12,7 +12,7 @@ CAD surfaces in TypeScript. Planes, quadrics, NURBS, and swept, lofted and blend
 The package isn't published to npm yet. Install it from GitHub, which also fetches and builds its `meercad-curves` dependency:
 
 ```sh
-npm install github:VJigouline/MeerCADSurfaces
+npm install github:VJigouline/mc-surfaces
 ```
 
 Node.js 22 or later is required.
@@ -29,7 +29,7 @@ import {
   Transform3,
   Vector3,
   surfaceFromJSON,
-} from 'meercad-surfaces';
+} from 'mc-surfaces';
 
 // Every surface shares the ISurface interface.
 const sphere = SphereSurface.centredAt(new Vector3(0, 0, 0), 2);

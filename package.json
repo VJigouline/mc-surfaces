@@ -1,5 +1,5 @@
 {
-  "name": "meercad-surfaces",
+  "name": "mc-surfaces",
   "version": "1.0.0",
   "description": "CAD surface library: planes, quadrics, NURBS, swept, lofted and blended surfaces behind one ISurface interface.",
   "keywords": ["cad", "surfaces", "geometry", "nurbs", "bspline", "bezier", "loft", "sweep", "coons", "typescript"],
@@ -37,6 +37,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/VJigouline/MeerCADSurfaces.git"
+    "url": "git+https://github.com/VJigouline/mc-surfaces.git"
   }
 }
