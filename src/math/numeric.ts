@@ -1,4 +1,4 @@
-import { Vector3 } from 'meercad-curves';
+import { Vector3 } from 'mc-curves';
 
 /** Distance below which two points count as coincident, at unit model size. */
 export const GEOMETRIC_TOLERANCE = 1e-9;

@@ -1,4 +1,4 @@
-import { NurbsCurve, Vector3, type ICurve, type Transform3 } from 'meercad-curves';
+import { NurbsCurve, Vector3, type ICurve, type Transform3 } from 'mc-curves';
 import { averagedKnots, basisDerivatives, basisRow, findSpan, uniformClampedKnots } from '../math/bspline.js';
 import { binomial, solveVectorSystem } from '../math/numeric.js';
 import type { ISurface, SurfaceDomain, SurfaceJSON } from './ISurface.js';

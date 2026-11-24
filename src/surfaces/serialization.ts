@@ -1,4 +1,4 @@
-import { curveFromJSON as readPlainCurve, Frame3, Transform3, Vector3, type CurveJSON, type ICurve } from 'meercad-curves';
+import { curveFromJSON as readPlainCurve, Frame3, Transform3, Vector3, type CurveJSON, type ICurve } from 'mc-curves';
 import { CompositeSurface } from './Compound.js';
 import { CoonsSurface, ExtrusionSurface, GordonSurface, LoftSurface, RevolutionSurface, RuledSurface } from './CurveSurfaces.js';
 import { ConeSurface, CylinderSurface, PlaneSurface, SphereSurface, TorusSurface } from './Elementary.js';

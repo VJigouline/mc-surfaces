@@ -1,4 +1,4 @@
-import type { BoundingBox3, ICurve, Transform3, Vector3 } from 'meercad-curves';
+import type { BoundingBox3, ICurve, Transform3, Vector3 } from 'mc-curves';
 import type { NurbsSurface } from './NurbsSurface.js';
 
 /** The closed interval of one parameter. */

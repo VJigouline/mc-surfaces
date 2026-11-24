@@ -1,4 +1,4 @@
-import { BezierCurve, BSplineCurve, CircularArc, EllipticalArc, HyperbolicArc, Line, ParametricCurve, Polyline } from 'meercad-curves';
+import { BezierCurve, BSplineCurve, CircularArc, EllipticalArc, HyperbolicArc, Line, ParametricCurve, Polyline } from 'mc-curves';
 import { describe, expect, it } from 'vitest';
 import {
   BezierSurface,

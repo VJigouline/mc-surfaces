@@ -8,7 +8,7 @@ import {
   Line,
   Polyline,
   type ICurve,
-} from 'meercad-curves';
+} from 'mc-curves';
 import {
   BezierSurface,
   BilinearSurface,

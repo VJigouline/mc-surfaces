@@ -2,14 +2,14 @@
 
 CAD surfaces in TypeScript. Planes, quadrics, NURBS, and swept, lofted and blended surfaces all implement one `ISurface` interface, so the same code can evaluate, measure, tessellate, intersect, trim, transform and save any of them.
 
-- Works with [MeerCADCurves](https://github.com/VJigouline/MeerCADCurves): any of its curves can be extruded, revolved, lofted or swept
+- Works with [mc-curves](https://github.com/VJigouline/mc-curves): any of its curves can be extruded, revolved, lofted or swept
 - Immutable surfaces: operations return new surfaces
 - Closed-form results where they exist, and tested numerics where they don't
 - Ships as an ES module with type declarations
 
 ## Install
 
-The package isn't published to npm yet. Install it from GitHub, which also fetches and builds its `meercad-curves` dependency:
+The package isn't published to npm yet. Install it from GitHub, which also fetches and builds its `mc-curves` dependency:
 
 ```sh
 npm install github:VJigouline/mc-surfaces
@@ -20,7 +20,7 @@ Node.js 22 or later is required.
 ## Quick example
 
 ```ts
-import { CircularArc, Line } from 'meercad-curves';
+import { CircularArc, Line } from 'mc-curves';
 import {
   ExtrusionSurface,
   Frame3,

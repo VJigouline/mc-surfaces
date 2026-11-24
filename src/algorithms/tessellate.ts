@@ -1,4 +1,4 @@
-import type { Vector3 } from 'meercad-curves';
+import type { Vector3 } from 'mc-curves';
 import { gridParameters } from '../math/numeric.js';
 import type { ISurface, SurfaceMesh, SurfaceParameter, SurfaceTessellationOptions } from '../surfaces/ISurface.js';
 

@@ -1,4 +1,4 @@
-import { CircularArc, Frame3, Line, Vector3, type ICurve } from 'meercad-curves';
+import { CircularArc, Frame3, Line, Vector3, type ICurve } from 'mc-curves';
 import { clamp, dCos, dLinear, dSin } from '../math/numeric.js';
 import { FrameSurface, isFullTurn, type SurfaceRange } from './FrameSurface.js';
 import type { ClosestSurfacePoint, ISurface } from './ISurface.js';

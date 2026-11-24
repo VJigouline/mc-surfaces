@@ -1,5 +1,5 @@
 // The shared math types come from the curve library, so one set works with both.
-export { BoundingBox3, Frame3, Transform3, Vector3 } from 'meercad-curves';
+export { BoundingBox3, Frame3, Transform3, Vector3 } from 'mc-curves';
 
 export type {
   ClosestSurfacePoint,

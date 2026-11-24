@@ -1,4 +1,4 @@
-import { BoundingBox3, Line, Vector3, type ICurve } from 'meercad-curves';
+import { BoundingBox3, Line, Vector3, type ICurve } from 'mc-curves';
 import { bisect, clamp, solveLinear } from '../math/numeric.js';
 import type {
   CurveSurfaceIntersection,

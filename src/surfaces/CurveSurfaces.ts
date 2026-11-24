@@ -1,5 +1,5 @@
-import type { ICurve, Transform3, Vector3 } from 'meercad-curves';
-import { Vector3 as V3 } from 'meercad-curves';
+import type { ICurve, Transform3, Vector3 } from 'mc-curves';
+import { Vector3 as V3 } from 'mc-curves';
 import { CardinalSplines } from '../math/cardinal.js';
 import { dCos, dSin, uniqueSorted } from '../math/numeric.js';
 import { isFullTurn } from './FrameSurface.js';

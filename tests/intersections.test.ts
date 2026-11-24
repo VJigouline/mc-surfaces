@@ -1,4 +1,4 @@
-import { CircularArc, Helix, Line } from 'meercad-curves';
+import { CircularArc, Helix, Line } from 'mc-curves';
 import { describe, expect, it } from 'vitest';
 import {
   BSplineSurface,

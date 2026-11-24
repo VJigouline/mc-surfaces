@@ -28,7 +28,7 @@
     "node": ">=22"
   },
   "dependencies": {
-    "meercad-curves": "github:VJigouline/MeerCADCurves#a4c30ce23020e88a7048b5f0a148d96b54e055bb"
+    "mc-curves": "github:VJigouline/mc-curves#234dbaa1192450f6e1c14fc642eaeaf4bc20a780"
   },
   "devDependencies": {
     "@vitest/coverage-v8": "^5.1.0",

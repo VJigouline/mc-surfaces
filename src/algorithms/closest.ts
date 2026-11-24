@@ -1,4 +1,4 @@
-import type { Vector3 } from 'meercad-curves';
+import type { Vector3 } from 'mc-curves';
 import { clamp, gridParameters } from '../math/numeric.js';
 import type { ClosestSurfacePoint, ISurface } from '../surfaces/ISurface.js';
 

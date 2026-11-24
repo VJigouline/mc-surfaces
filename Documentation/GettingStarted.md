@@ -4,7 +4,7 @@
 
 A surface is a map from a rectangle of parameters `(u, v)` to 3D space. `domainU` and `domainV` give the rectangle. Infinite planes and cylinders aren't represented, because every surface needs a finite area.
 
-The math types (`Vector3`, `Frame3`, `Transform3`, `BoundingBox3`) come from `meercad-curves`, and this package re-exports them, so both libraries share one set. Curves come from `meercad-curves` directly.
+The math types (`Vector3`, `Frame3`, `Transform3`, `BoundingBox3`) come from `mc-curves`, and this package re-exports them, so both libraries share one set. Curves come from `mc-curves` directly.
 
 Three rules apply to every surface:
 
@@ -45,7 +45,7 @@ A curvature is positive where the surface bends towards its normal. A sphere's n
 ## Building surfaces from curves
 
 ```ts
-import { BezierCurve, CircularArc, Line } from 'meercad-curves';
+import { BezierCurve, CircularArc, Line } from 'mc-curves';
 import { LoftSurface, PipeSurface, RevolutionSurface, RuledSurface, SweepSurface, Vector3 } from 'mc-surfaces';
 
 const profile = new BezierCurve([new Vector3(2, 0, 0), new Vector3(3, 0, 1), new Vector3(2, 0, 2)]);

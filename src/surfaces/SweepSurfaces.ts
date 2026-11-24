@@ -1,4 +1,4 @@
-import { Vector3, type ICurve } from 'meercad-curves';
+import { Vector3, type ICurve } from 'mc-curves';
 import type { SurfaceDomain, SurfaceJSON } from './ISurface.js';
 import { SurfaceBase } from './SurfaceBase.js';
 

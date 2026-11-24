@@ -1,4 +1,4 @@
-import { BoundingBox3, CurveBase, Transform3, Vector3, type CurveDomain, type CurveJSON, type ICurve } from 'meercad-curves';
+import { BoundingBox3, CurveBase, Transform3, Vector3, type CurveDomain, type CurveJSON, type ICurve } from 'mc-curves';
 import { closestSurfacePoint } from '../algorithms/closest.js';
 import { intersectCurveSurface, intersectLineSurface, intersectPlaneSurface, intersectSurfaces } from '../algorithms/intersections.js';
 import { tessellateSurface } from '../algorithms/tessellate.js';

@@ -1,4 +1,4 @@
-import { BezierCurve, CircularArc, Frame3, HyperbolicArc, Vector3 } from 'meercad-curves';
+import { BezierCurve, CircularArc, Frame3, HyperbolicArc, Vector3 } from 'mc-curves';
 import { dCos, dCosh, dLinear, dSin, dSinh } from '../math/numeric.js';
 import { FrameSurface, isFullTurn, type SurfaceRange } from './FrameSurface.js';
 import { BezierSurface, revolveNurbs, type NurbsSurface } from './NurbsSurface.js';
